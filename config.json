@@ -22,8 +22,10 @@
     "100000768468627"
   ],
   "whiteListMode": {
-    "enable": false,
-    "whiteListIds": [],
+    "enable": true,
+    "whiteListIds": [
+      "100000768468627"
+    ],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
   "nickNameBot": "𓆩X-NiL‣᭄𓆪-143🔥࿐",
@@ -134,7 +136,7 @@
     "updatePresence": true,
     "listenTyping": true,
     "logLevel": "error",
-    "selfListen": false,
+    "selfListen": true,
     "selfListenEvent": true,
     "autoMarkDelivery": false,
     "autoReconnect": false,
