@@ -15,7 +15,6 @@
   "adminOnly": {
     "enable": false,
     "ignoreCommand": [
-      "sdxl"
     ]
   },
   "adminBot": [
