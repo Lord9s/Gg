@@ -1,7 +1,7 @@
 {
   "facebookAccount": {
-    "email": "sahed1234gf@gmail.com",
-    "password": "@#github143",
+    "email": "",
+    "password": "",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
@@ -18,16 +18,18 @@
     ]
   },
   "adminBot": [
-    "100000768468627"
+    "61560050885709",
+    "61563234700684"
+    "61562072981070"
   ],
   "whiteListMode": {
-    "enable": true,
+    "enable": false,
     "whiteListIds": [
-      "100000768468627"
+      ""
     ],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "𓆩X-NiL‣᭄𓆪-143🔥࿐",
+  "nickNameBot": "𓆩sad‣᭄𓆪lord🔥boy࿐",
   "prefix": ".",
   "database": {
     "type": "sqlite",
@@ -75,13 +77,13 @@
     "notes": "the value of timeInterval is seconds, url is the url you want to send the request to (automatically detected for hosting glitch or replit)"
   },
   "autoLoadScripts": {
-    "enable": false,
+    "enable": true,
     "ignoreCmds": "",
     "ignoreEvents": "",
     "notes": "this feature will automatically load the script when scripts have been changed, you can set ignoreCmds to ignore commands, ignoreEvents to ignore events, separate by comma or space, example: \"cmd1.js cmd2.js cmd3.js\" (without backslash)"
   },
   "autoRefreshFbstate": true,
-  "autoReloginWhenChangeAccount": false,
+  "autoReloginWhenChangeAccount": true,
   "autoRestartWhenListenMqttError": false,
   "restartListenMqtt": {
     "enable": true,
@@ -112,8 +114,8 @@
   "hideNotiMessage": {
     "commandNotFound": false,
     "adminOnly": false,
-    "threadBanned": false,
-    "userBanned": false,
+    "threadBanned": true,
+    "userBanned": true,
     "needRoleToUseCmd": false,
     "needRoleToUseCmdOnReply": false,
     "needRoleToUseCmdOnReaction": false
@@ -125,9 +127,9 @@
     "message_unsend": true,
     "message_reply": true,
     "event": true,
-    "read_receipt": false,
-    "typ": false,
-    "presence": false
+    "read_receipt": true,
+    "typ": true,
+    "presence": true
   },
   "optionsFca": {
     "forceLogin": true,
